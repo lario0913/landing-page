@@ -27,7 +27,7 @@ body{
 ***************************************************************/
 header.flex-container{
     width: 100%;
-    background: rgba(30, 64, 98,0.9);
+    background: rgba(30, 64, 98);
     padding-top: 10px;
     padding-bottom: 10px;
     position: fixed;
