@@ -1,0 +1,450 @@
+/*
+main color: #1e4062
+botton: #ff1a1a
+
+*/
+
+
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+/***************************************************************
+                            HEADER STYLES
+***************************************************************/
+header.flex-container{
+    width: 100%;
+    background: rgba(30, 64, 98,0.9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+}
+#header-hamburger{
+    margin-left: 0;
+    margin-right: 0;
+    background:#ff1a1a;;
+    color: #ff1a1a;
+    padding: 15px;
+    border-radius: 0;
+    border: none;
+}
+    #navnav{
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+        #logo-link{
+            border: none;
+            width: 25%;
+        }
+
+        #navbarNavAltMarkup .navbar-nav{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 100px;
+        }
+            #navbarNavAltMarkup .navbar-nav a{
+                color: #ff1a1a;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            #navbarNavAltMarkup .navbar-nav a:hover{
+                font-weight: 600;
+                padding: 5px 15px;
+            }
+
+                            
+/***************************************************************
+                            MAIN STYLES
+***************************************************************/
+
+/*First main section*/
+#overlay{
+    background: rgba(30, 64, 98,0.3);
+}
+main #newsletter {
+    background: url(background-image.jpg) center repeat-y;
+    text-align: center
+    
+}
+#overlay{
+    background: rgba(30, 64, 98,0.9);
+    padding-top: 200px;
+    padding-bottom: 180px;
+    margin: 0px;
+}
+    #overlay h2{
+        margin-bottom: 60px;
+        color: white;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    #newsletter form{
+        height: 35px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        #newsletter form .flex-item:nth-child(1){
+            width: 60%;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding-left: 25px;
+
+        }
+        #newsletter form .flex-item:nth-child(2){
+            width: 25%;
+            margin-left: 10px;
+            background-color: #ff1a1a;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+
+/* Features style */
+main .flex-container#features{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: rgb(30, 64, 98);
+}
+    main .flex-container#features .flex-item:nth-child(2),main .flex-container#features .flex-item:nth-child(3){
+        margin-left: 30px;
+    }
+    main .flex-container#features .flex-item{
+        width: 22%;
+        text-align: center;
+    }
+    main .flex-container#features .flex-item:hover{
+        box-shadow: 0px 5px 25px rgba(30, 64, 98,0.9);
+        border-radius: 0 0px 20px 30px;
+        padding: 20px 10px;
+    }
+        .fa{
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(30, 64, 98);
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            margin-bottom: 0px;
+        }
+            #first-fa{
+                padding: 30px;
+            }
+        main .flex-container#features .flex-item h2{
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+.clear{
+    clear: both;
+}
+
+
+ /* Guide style */
+ main .flex-container#guide{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background: rgba(30, 64, 98,0.3);
+ }
+    main .flex-container#guide .flex-item{
+        width: 60%;
+    }
+
+/* Pricing  style */
+main .flex-container#pricing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background: rgb(30, 64, 98);
+}
+    main .flex-container#pricing .flex-item{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 25%;
+        border: 1px solid rgb(32, 7, 7);
+        margin-left: 50px;
+        color: #ff1a1a;
+        outline: none;
+        font-weight: 500;
+        border-radius: 0 0px 20px 30px;
+    }
+    main .flex-container#pricing .flex-item:nth-child(1){
+        margin-left: 0px;
+    }
+    main .flex-container#pricing .flex-item:hover{
+        box-shadow: 0px 5px 25px rgba(32, 7, 7, 0.8);
+    }
+        #mobile-logo{
+            display: none;
+        }
+        main .flex-container#pricing .flex-item img{
+            margin-left: auto;
+            width: 40%;
+            display: block;
+            margin-right: auto;
+            
+        }
+        main .flex-container#pricing .flex-item h3{
+            background: rgba(32, 7, 7, 0.8);
+            color: white;
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px; 
+            font-weight: normal;
+        }
+        main .flex-container#pricing .flex-item h4{
+            margin-top: 10px;
+        }
+        main .flex-container#pricing .flex-item button{
+            margin-top: 10px;
+            padding: 5px 25px;
+            background-color: #ff1a1a;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+
+
+/***************************************************************
+                            MAIN STYLES
+***************************************************************/
+footer{
+    padding:60px 30px;
+    text-align: center;
+    background: rgba(32, 7, 7, 0.9);
+    color: white;
+}
+footer h3{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+
+
+
+
+/***************************************************************
+                            MEDIA STYLES
+***************************************************************/
+
+
+@media screen and (max-width: 767px){
+    #navbarNavAltMarkup .navbar-nav a:hover{
+        font-weight: 600;
+        padding: 5px 15px;
+    }
+    #overlay{
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 100px;
+        margin: 0px;
+    }
+        #overlay h2{
+            margin-bottom: 30px;
+            color: white;
+            font-weight: normal;
+            font-size: 2rem;
+        }
+        #newsletter form{
+            height: 35px;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto 0 auto;
+        }
+            #newsletter form .flex-item:nth-child(1){
+                width: 80%;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                padding: 5px 25px 5px 25px;
+                margin-bottom: 10px;
+            }
+            #newsletter form .flex-item:nth-child(2){
+                width: 50%;
+                background-color: #ff1a1a;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                outline: none;
+                padding: 5px 25px 5px 25px;
+            }
+
+
+/* Features */
+main .flex-container#features .flex-item{
+    width: 28%;
+    text-align: center;
+    font-size: 16px;
+}
+.fa{
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+    #first-fa{
+        padding: 20px;
+    }
+main .flex-container#features .flex-item h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+main .flex-container#features .flex-item:hover{
+    box-shadow: 0px 5px 25px rgba(30, 64, 98,0.9);
+    border-radius: 0 0px 20px 30px;
+    padding: 20px 10px;
+    font-size: 13px;
+}
+
+/* GUIDE */
+main .flex-container#guide .flex-item{
+    width: 85%;
+}
+
+/* pricing */
+main .flex-container#pricing .flex-item{
+    width: 30%;
+    margin-left: 20px;
+    color: #ff1a1a;
+    outline: none;
+    font-weight: 400;
+    border-radius: 0 0px 20px 30px;
+}
+main .flex-container#pricing .flex-item:nth-child(1){
+    margin-left: auto;
+}
+main .flex-container#pricing .flex-item h3{
+    background: rgba(32, 7, 7, 0.8);
+    color: white;
+    font-size: 20px;
+}
+
+
+footer{
+    padding:30px 30px;
+    text-align: center;
+    background: rgba(32, 7, 7, 0.9);
+    color: white;
+}
+footer h3{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+}
+
+@media screen and (max-width: 600px){
+        #overlay h2{
+            margin-bottom: 30px;;
+            font-size: 1.4rem;
+        }
+            #newsletter form .flex-item:nth-child(1){
+                padding: 5px 15px 5px 15px;
+                text-align: center
+            }
+            #newsletter form .flex-item:nth-child(2){
+                width: 60%;
+                padding: 5px 15px 5px 15px;
+            }
+
+
+/* Features */
+main .flex-container#features{
+    flex-direction: column;
+    justify-content: center;
+
+}
+main .flex-container#features .flex-item{
+    width: 88%;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.fa{
+    font-size: 10px;
+}
+main .flex-container#features .flex-item h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+main .flex-container#features .flex-item:hover{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* pricing */
+main .flex-container#pricing{
+    flex-direction: column;
+}
+main .flex-container#pricing .flex-item{
+    width: 80%;
+    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
+    color: #ff1a1a;
+    outline: none;
+    font-weight: 400;
+    border-radius: 0 0px 20px 30px;
+}
+main .flex-container#pricing .flex-item h3{
+    background: rgba(32, 7, 7, 0.8);
+    color: white;
+    font-size: 20px;
+}
+
+
+footer{
+    padding:30px 30px;
+    text-align: center;
+    background: rgba(32, 7, 7, 0.9);
+    color: white;
+}
+footer h3{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+#block a{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 90px;
+}
+
+}

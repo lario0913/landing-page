@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/078be77031.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <header class="flex-container">   
+    <nav class="navbar navbar-expand-lg" id="navnav">
+        <a class="navbar-brand" href="#" id="logo-link"><img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Thrombone Image" id="desktop-logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa " id="header-hamburger"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav" id="block">
+                <a class="nav-item nav-link" href="#guide">Guide</a>
+                <a class="nav-item nav-link" href="#features">Features</a>
+                <a class="nav-item nav-link" href="#pricing">Pricing</a>
+                <a class="nav-item nav-link" href="#newsletter">Newsletter</a>
+            </div>
+        </div>
+    </nav>
+ 
+        <!-- <div id="img-div" class="flex-item">  
+            <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Thrombone Image" id="desktop-logo">
+        </div>
+        
+        <nav class="flex-item" id="nav-bar"> 
+            <ul class="flex-container" id="mobile-container">
+                <li class="flex-item"><a href="#guide" class="nav-link">Guide</a></li>
+                <li class="flex-item"><a href="#features" class="nav-link">Features</a></li>
+                <li class="flex-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li class="flex-item"><a href="#newsletter" class="nav-link">Newsletter</a></li>
+            </ul>
+        </nav> -->
+   
+    </header>
+
+    <main>
+        <section class="" id="newsletter">
+            <div id="overlay">
+                <h2>Receive updates of our services</h2>
+                <form action="" class="flex-container">
+                    <input type="email" placeholder="enter your email address" class="flex-item">
+                    <button id="submit" class="flex-item">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="flex-container" id="features">
+            <div class="flex-item">
+                <div class="icon">
+                    <i class="fa fa-2x fa-fire" id="first-fa"> </i>
+                </div>
+                <h2 id="">Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. purchase.</p>
+            </div>
+            <div class="flex-item">
+                <div class="icon">
+                    <i class="fa fa-3x fa-battery-full"></i>
+                </div>
+                <h2 id="">Quality Assurance</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div class="flex-item">
+                <div class="icon">
+                        <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <h2 id="">Fast Shipping</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </section>
+
+        <section id="guide" class="flex-container">
+                <iframe
+                id="video"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                frameborder="0"
+                allowfullscreen
+               class="flex-item"></iframe>
+        
+        </section>
+
+        <section class="flex-container" id="pricing">
+            <div class="flex-item">
+                <h3> TENOR TROMBONE</h3>
+                <h4>$600</h4>
+                <img src="tenor.jpg" alt="Tenor-Trombone">
+                <button>SELECT</button> 
+            </div> 
+            <div class="flex-item">
+                <h3> VALVE TROMBONE</h3>
+                <h4>$900</h4>
+                <img src="ventil.jpg" alt="Tenor-Trombone">
+                <button>SELECT</button> 
+            </div>
+            <div class="flex-item">
+                <h3> BASE TROMBONE</h3>
+                <h4>$1200</h4>
+                <img src="bass.jpg" alt="Base-Trombone" style="height: 15opx;">
+                <button>SELECT</button> 
+            </div>           
+        </section>
+
+    </main>
+
+    <footer>
+         <h3>@lario 2019</h3>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
